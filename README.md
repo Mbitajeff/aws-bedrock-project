@@ -1,25 +1,26 @@
-# Quickly build Generative AI applications with Amazon Bedrock
+# Amazon Bedrock Quick Start
 
-This repository contains code samples for building diverse AI applications using Amazon Bedrock's foundation models. Learn how to accelerate projects in image and text generation and beyond.
+This repository provides a quick start guide for building AI applications using Amazon Bedrock's foundation models. It includes sample projects for text and image generation, chatbot interactions, and retrieval-augmented generation (RAG).
 
 ## Getting Started
 
-To get a local copy up and running, follow these simple steps.
+Follow these steps to set up your environment and run the provided examples.
 
 ### Prerequisites
-* Python 3.9 or higher
-* pip
-* [Model Access in Amazon Bedrock](https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/modelaccess)
+- Python 3.9 or higher
+- pip package manager
+- Access to [Amazon Bedrock Models](https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/modelaccess)
 
 ### Installation
 
-Clone the repo
+Clone this repository:
 
 ```bash
-git clone https://github.com/build-on-aws/amazon-bedrock-quick-start.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_NEW_REPO.git
+cd YOUR_NEW_REPO
 ```
 
-Install required packages
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -27,52 +28,46 @@ pip install -r requirements.txt
 
 ## Usage
 
-This repository contains various code samples demonstrating how to build AI applications using Amazon Bedrock's foundation models. Here's how to use each:
-
 ### Image Generation
 
-To generate images using Stable Diffusion, run the following command:
+Generate images using Stable Diffusion:
 
 ```bash
 streamlit run sd_sample_st.py
 ```
 
-This will launch a Streamlit app where you can enter text prompts to generate corresponding images.
+This will launch a Streamlit app where you can input text prompts and generate images.
 
-### Text Examples
+### Text Processing
 
-Run this Python script to see different text-based applications like text summarization, code generation, and Q&A:
+Run text-based applications such as summarization and code generation:
 
 ```bash
 python text_examples.py
 ```
 
-This script will output results for each of these applications, showcasing the versatility of foundation models in text-based tasks.
-
 ### Chatbot
 
-To interact with a chatbot built using Amazon Bedrock, LangChain, and Streamlit, run:
+Interact with an AI-powered chatbot using Amazon Bedrock, LangChain, and Streamlit:
 
 ```bash
 streamlit run chat_bedrock_st.py
 ```
 
-This launches a Streamlit app where you can have a conversation with the chatbot, witnessing AI-powered conversational capabilities firsthand.
+### RAG Implementation
 
-### RAG Example
-
-To see how Retrieval Augmented Generation (RAG) works with LangChain, execute:
+Execute a Retrieval Augmented Generation (RAG) example:
 
 ```bash
 python rag_example.py
 ```
 
-This will demonstrate how RAG augments foundation models by retrieving and incorporating external data into the generated content.
+## Contribution
+Feel free to contribute by submitting pull requests or opening issues.
 
 ## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+For security issues, please review our [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) guidelines.
 
 ## License
+This project is licensed under the MIT-0 License. See the LICENSE file for details.
 
-This library is licensed under the MIT-0 License. See the LICENSE file.

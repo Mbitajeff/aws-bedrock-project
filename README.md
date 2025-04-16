@@ -43,7 +43,7 @@ This will launch a Streamlit app where you can input text prompts and generate i
 Run text-based applications such as summarization and code generation:
 
 ```bash
-python text_examples.py
+python mbita.py
 ```
 
 ### Chatbot
@@ -59,7 +59,7 @@ streamlit run chat_bedrock_st.py
 Execute a Retrieval Augmented Generation (RAG) example:
 
 ```bash
-python rag_example.py
+python rag_Mbita.py
 ```
 
 ## Contribution
